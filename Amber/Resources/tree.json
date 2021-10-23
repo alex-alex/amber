@@ -1,0 +1,57 @@
+[
+	{
+		"id": "main",
+		"question": "Hi Alex! What can I help you with?",
+		"type": "answers",
+		"answers": [
+			{
+				"text": "Add diary record",
+				"target": "add_diary_record"
+			},
+			{
+				"text": "Symptom assesment",
+				"target": "symptom_assesment"
+			},
+			{
+				"text": "Plan physical examination",
+				"target": "plan_examination"
+			},
+			{
+				"text": "Chat with a doctor",
+				"target": "chat_doctor"
+			}
+		]
+	},
+	{
+		"id": "symptom_assesment",
+		"question": "Let's start with the symptom that's troubling you the most.",
+		"type": "text",
+		"text": {
+			"text": "e.g. headache",
+			"target": "symptom_assesment_2"
+		}
+	},
+	{
+		"id": "add_diary_record",
+		"question": "Okay, let's start with simple question - how do you feel?",
+		"type": "answers",
+		"answers": [
+			{
+				"text": "Amazing",
+				"target": "add_diary_record_2"
+			},
+			{
+				"text": "Good",
+				"target": "add_diary_record_2"
+			},
+			{
+				"text": "Okay",
+				"target": "add_diary_record_2"
+			},
+			{
+				"text": "Bad",
+				"target": "add_diary_record_2"
+			}
+		]
+	}
+]

@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAA516CF272306BA007FD0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516CE272306BA007FD0E9 /* AppDelegate.swift */; };
-		FAA516D1272306BA007FD0E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516D0272306BA007FD0E9 /* SceneDelegate.swift */; };
-		FAA516D3272306BA007FD0E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516D2272306BA007FD0E9 /* ViewController.swift */; };
-		FAA516D6272306BA007FD0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA516D4272306BA007FD0E9 /* Main.storyboard */; };
-		FAA516D8272306BC007FD0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA516D7272306BC007FD0E9 /* Assets.xcassets */; };
-		FAA516DB272306BC007FD0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA516D9272306BC007FD0E9 /* LaunchScreen.storyboard */; };
+		FA50422B272436FF002CB49D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422A272436FF002CB49D /* Question.swift */; };
+		FA50422D272437E5002CB49D /* AITree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422C272437E5002CB49D /* AITree.swift */; };
+		FAA516ED27230895007FD0E9 /* AmberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516E327230895007FD0E9 /* AmberViewController.swift */; };
+		FAA516EE27230895007FD0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516E527230895007FD0E9 /* AppDelegate.swift */; };
+		FAA516EF27230895007FD0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA516E727230895007FD0E9 /* Assets.xcassets */; };
+		FAA516F027230895007FD0E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA516E827230895007FD0E9 /* LaunchScreen.storyboard */; };
+		FAA516F127230895007FD0E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA516EA27230895007FD0E9 /* Main.storyboard */; };
+		FAA516F527230A9B007FD0E9 /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = FAA516F427230A9B007FD0E9 /* FSCalendar */; };
+		FAA516F827231042007FD0E9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FAA516F727231042007FD0E9 /* Lottie */; };
+		FAA516FA272311BB007FD0E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516F9272311BB007FD0E9 /* Extensions.swift */; };
+		FAA516FF272313F1007FD0E9 /* 80520-blob.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA516FE272313F1007FD0E9 /* 80520-blob.json */; };
+		FAA5170427232003007FD0E9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5170327232003007FD0E9 /* CalendarViewController.swift */; };
+		FAA5170627232016007FD0E9 /* SFCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5170527232016007FD0E9 /* SFCalendar.swift */; };
+		FAA5170A2723222E007FD0E9 /* DateToolsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAA517092723222E007FD0E9 /* DateToolsSwift */; };
+		FAA517102723242E007FD0E9 /* CalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5170F2723242E007FD0E9 /* CalendarItem.swift */; };
+		FAA51712272325C5007FD0E9 /* CalendarItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */; };
+		FAA51714272325DD007FD0E9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA51713272325DD007FD0E9 /* RoundedButton.swift */; };
+		FAA517162724328F007FD0E9 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA517152724328F007FD0E9 /* tree.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA50422A272436FF002CB49D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		FA50422C272437E5002CB49D /* AITree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITree.swift; sourceTree = "<group>"; };
 		FAA516CB272306BA007FD0E9 /* Amber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amber.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAA516CE272306BA007FD0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA516D0272306BA007FD0E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA516D2272306BA007FD0E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAA516D5272306BA007FD0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAA516D7272306BC007FD0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAA516DA272306BC007FD0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FAA516DC272306BC007FD0E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA516E327230895007FD0E9 /* AmberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmberViewController.swift; sourceTree = "<group>"; };
+		FAA516E527230895007FD0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA516E727230895007FD0E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA516E927230895007FD0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA516EB27230895007FD0E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA516EC27230895007FD0E9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA516F9272311BB007FD0E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FAA516FE272313F1007FD0E9 /* 80520-blob.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "80520-blob.json"; sourceTree = "<group>"; };
+		FAA5170327232003007FD0E9 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		FAA5170527232016007FD0E9 /* SFCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCalendar.swift; sourceTree = "<group>"; };
+		FAA5170F2723242E007FD0E9 /* CalendarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarItem.swift; sourceTree = "<group>"; };
+		FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarItemCell.swift; sourceTree = "<group>"; };
+		FAA51713272325DD007FD0E9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		FAA517152724328F007FD0E9 /* tree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +52,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA516F527230A9B007FD0E9 /* FSCalendar in Frameworks */,
+				FAA5170A2723222E007FD0E9 /* DateToolsSwift in Frameworks */,
+				FAA516F827231042007FD0E9 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA504229272436EA002CB49D /* AI Tree */ = {
+			isa = PBXGroup;
+			children = (
+				FA50422C272437E5002CB49D /* AITree.swift */,
+				FA50422A272436FF002CB49D /* Question.swift */,
+			);
+			path = "AI Tree";
+			sourceTree = "<group>";
+		};
 		FAA516C2272306BA007FD0E9 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +89,95 @@
 		FAA516CD272306BA007FD0E9 /* Amber */ = {
 			isa = PBXGroup;
 			children = (
-				FAA516CE272306BA007FD0E9 /* AppDelegate.swift */,
-				FAA516D0272306BA007FD0E9 /* SceneDelegate.swift */,
-				FAA516D2272306BA007FD0E9 /* ViewController.swift */,
-				FAA516D4272306BA007FD0E9 /* Main.storyboard */,
-				FAA516D7272306BC007FD0E9 /* Assets.xcassets */,
-				FAA516D9272306BC007FD0E9 /* LaunchScreen.storyboard */,
-				FAA516DC272306BC007FD0E9 /* Info.plist */,
+				FAA516E427230895007FD0E9 /* Application */,
+				FAA516E227230895007FD0E9 /* Presentation */,
+				FAA5170D2723241D007FD0E9 /* Domain */,
+				FAA516E627230895007FD0E9 /* Resources */,
 			);
 			path = Amber;
+			sourceTree = "<group>";
+		};
+		FAA516E227230895007FD0E9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5170127231FEE007FD0E9 /* Calendar */,
+				FAA5170027231FE8007FD0E9 /* Amber */,
+				FAA5170227231FF3007FD0E9 /* Utils */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FAA516E427230895007FD0E9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAA516E527230895007FD0E9 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FAA516E627230895007FD0E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAA516FB272313D8007FD0E9 /* Animations */,
+				FAA516E727230895007FD0E9 /* Assets.xcassets */,
+				FAA516E827230895007FD0E9 /* LaunchScreen.storyboard */,
+				FAA516EA27230895007FD0E9 /* Main.storyboard */,
+				FAA516EC27230895007FD0E9 /* Info.plist */,
+				FAA517152724328F007FD0E9 /* tree.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAA516FB272313D8007FD0E9 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				FAA516FE272313F1007FD0E9 /* 80520-blob.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		FAA5170027231FE8007FD0E9 /* Amber */ = {
+			isa = PBXGroup;
+			children = (
+				FAA516E327230895007FD0E9 /* AmberViewController.swift */,
+			);
+			path = Amber;
+			sourceTree = "<group>";
+		};
+		FAA5170127231FEE007FD0E9 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5170327232003007FD0E9 /* CalendarViewController.swift */,
+				FAA5170527232016007FD0E9 /* SFCalendar.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		FAA5170227231FF3007FD0E9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAA516F9272311BB007FD0E9 /* Extensions.swift */,
+				FAA51713272325DD007FD0E9 /* RoundedButton.swift */,
+				FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAA5170D2723241D007FD0E9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FA504229272436EA002CB49D /* AI Tree */,
+				FAA5170E27232424007FD0E9 /* Calendar */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FAA5170E27232424007FD0E9 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5170F2723242E007FD0E9 /* CalendarItem.swift */,
+			);
+			path = Calendar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +196,11 @@
 			dependencies = (
 			);
 			name = Amber;
+			packageProductDependencies = (
+				FAA516F427230A9B007FD0E9 /* FSCalendar */,
+				FAA516F727231042007FD0E9 /* Lottie */,
+				FAA517092723222E007FD0E9 /* DateToolsSwift */,
+			);
 			productName = Amber;
 			productReference = FAA516CB272306BA007FD0E9 /* Amber.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +229,11 @@
 				Base,
 			);
 			mainGroup = FAA516C2272306BA007FD0E9;
+			packageReferences = (
+				FAA516F327230A9B007FD0E9 /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				FAA516F627231042007FD0E9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				FAA517082723222E007FD0E9 /* XCRemoteSwiftPackageReference "DateTools" */,
+			);
 			productRefGroup = FAA516CC272306BA007FD0E9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA516DB272306BC007FD0E9 /* LaunchScreen.storyboard in Resources */,
-				FAA516D8272306BC007FD0E9 /* Assets.xcassets in Resources */,
-				FAA516D6272306BA007FD0E9 /* Main.storyboard in Resources */,
+				FAA516EF27230895007FD0E9 /* Assets.xcassets in Resources */,
+				FAA516F127230895007FD0E9 /* Main.storyboard in Resources */,
+				FAA517162724328F007FD0E9 /* tree.json in Resources */,
+				FAA516FF272313F1007FD0E9 /* 80520-blob.json in Resources */,
+				FAA516F027230895007FD0E9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +263,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA516D3272306BA007FD0E9 /* ViewController.swift in Sources */,
-				FAA516CF272306BA007FD0E9 /* AppDelegate.swift in Sources */,
-				FAA516D1272306BA007FD0E9 /* SceneDelegate.swift in Sources */,
+				FAA5170627232016007FD0E9 /* SFCalendar.swift in Sources */,
+				FAA5170427232003007FD0E9 /* CalendarViewController.swift in Sources */,
+				FAA51712272325C5007FD0E9 /* CalendarItemCell.swift in Sources */,
+				FA50422B272436FF002CB49D /* Question.swift in Sources */,
+				FAA51714272325DD007FD0E9 /* RoundedButton.swift in Sources */,
+				FAA516EE27230895007FD0E9 /* AppDelegate.swift in Sources */,
+				FAA516FA272311BB007FD0E9 /* Extensions.swift in Sources */,
+				FAA517102723242E007FD0E9 /* CalendarItem.swift in Sources */,
+				FAA516ED27230895007FD0E9 /* AmberViewController.swift in Sources */,
+				FA50422D272437E5002CB49D /* AITree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAA516D4272306BA007FD0E9 /* Main.storyboard */ = {
+		FAA516E827230895007FD0E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FAA516D5272306BA007FD0E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAA516D9272306BC007FD0E9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAA516DA272306BC007FD0E9 /* Base */,
+				FAA516E927230895007FD0E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA516EA27230895007FD0E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA516EB27230895007FD0E9 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,22 +423,30 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2V68QWUSQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Amber/Info.plist;
+				INFOPLIST_FILE = Amber/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Amber;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = x;
+				INFOPLIST_KEY_NSCameraUsageDescription = x;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = x;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = x;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.Amber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.amber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,22 +459,30 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N2V68QWUSQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Amber/Info.plist;
+				INFOPLIST_FILE = Amber/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Amber;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = x;
+				INFOPLIST_KEY_NSCameraUsageDescription = x;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = x;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = x;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.Amber;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.amber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -360,6 +508,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAA516F327230A9B007FD0E9 /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FAA516F627231042007FD0E9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		FAA517082723222E007FD0E9 /* XCRemoteSwiftPackageReference "DateTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GreenJell0/DateTools";
+			requirement = {
+				branch = "PM-5.3-Support";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAA516F427230A9B007FD0E9 /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA516F327230A9B007FD0E9 /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+		FAA516F727231042007FD0E9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA516F627231042007FD0E9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		FAA517092723222E007FD0E9 /* DateToolsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAA517082723222E007FD0E9 /* XCRemoteSwiftPackageReference "DateTools" */;
+			productName = DateToolsSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAA516C3272306BA007FD0E9 /* Project object */;
 }
