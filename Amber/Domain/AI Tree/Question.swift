@@ -15,13 +15,14 @@ enum QuestionType: String, Codable {
 final class Answer: Codable {
 
 	let text: String
-	let target: String
+	let target: String?
 
 }
 
 final class Question: Codable {
 
 	let id: String
+	let header: String?
 	let question: String
 	let type: QuestionType
 	let answers: [Answer]?

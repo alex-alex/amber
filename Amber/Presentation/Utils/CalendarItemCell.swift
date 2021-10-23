@@ -43,13 +43,14 @@ class CalendarItemCell: UITableViewCell {
 		mainStackView.addArrangedSubview(verticalStackView)
 
 		titleLabel.textColor = .black
-//		titleLabel.font = .subtitle
+		titleLabel.font = UIFont(name: "HelveticaNeue-Medium", size: 16)
 		verticalStackView.addArrangedSubview(titleLabel)
 
 		let horizontalStackView = UIStackView()
 		horizontalStackView.axis = .horizontal
 		horizontalStackView.spacing = 4
 		verticalStackView.addArrangedSubview(horizontalStackView)
+		horizontalStackView.widthAnchor.constraint(equalTo: mainStackView.widthAnchor).isActive = true
 		horizontalStackView.heightAnchor.constraint(equalTo: titleLabel.heightAnchor, multiplier: 0.75).isActive = true
 
 		let dotViewContainer = UIView()
@@ -66,20 +67,12 @@ class CalendarItemCell: UITableViewCell {
 		dotView.heightAnchor.constraint(equalToConstant: 6).isActive = true
 
 		typeLabel.textColor = .darkGray
-//		typeLabel.font = .text
-		typeLabel.setContentHuggingPriority(UILayoutPriority(rawValue: 251), for: .horizontal)
+		typeLabel.font = UIFont(name: "HelveticaNeue", size: 12)
 		horizontalStackView.addArrangedSubview(typeLabel)
 
-		timeLabel.textColor = .black
-//		timeLabel.font = .text
+		timeLabel.textColor = .accent
+		timeLabel.font = UIFont(name: "HelveticaNeue-Medium", size: 12)
 		horizontalStackView.addArrangedSubview(timeLabel)
-
-		let viewButton = UIButton(configuration: .gray(), primaryAction: nil)
-//		viewButton.titleLabel?.font = .text
-		viewButton.setTitle("View", for: .normal)
-		mainStackView.addArrangedSubview(viewButton)
-		viewButton.widthAnchor.constraint(equalToConstant: 100).isActive = true
-		viewButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
 	}
 
 }

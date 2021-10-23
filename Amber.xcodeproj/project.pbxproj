@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FA50422B272436FF002CB49D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422A272436FF002CB49D /* Question.swift */; };
 		FA50422D272437E5002CB49D /* AITree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422C272437E5002CB49D /* AITree.swift */; };
+		FA55DF8727248BE10077185A /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55DF8627248BE10077185A /* SymptomsViewController.swift */; };
+		FA993EFA2724563C00BF1B46 /* Hiragino Mincho ProN W3.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA993EF82724563C00BF1B46 /* Hiragino Mincho ProN W3.otf */; };
+		FA993EFB2724563C00BF1B46 /* Hiragino Mincho ProN W6.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA993EF92724563C00BF1B46 /* Hiragino Mincho ProN W6.otf */; };
+		FA993EFD27247FCE00BF1B46 /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA993EFC27247FCE00BF1B46 /* FilledButton.swift */; };
 		FAA516ED27230895007FD0E9 /* AmberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516E327230895007FD0E9 /* AmberViewController.swift */; };
 		FAA516EE27230895007FD0E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA516E527230895007FD0E9 /* AppDelegate.swift */; };
 		FAA516EF27230895007FD0E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA516E727230895007FD0E9 /* Assets.xcassets */; };
@@ -23,13 +27,16 @@
 		FAA5170A2723222E007FD0E9 /* DateToolsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAA517092723222E007FD0E9 /* DateToolsSwift */; };
 		FAA517102723242E007FD0E9 /* CalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5170F2723242E007FD0E9 /* CalendarItem.swift */; };
 		FAA51712272325C5007FD0E9 /* CalendarItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */; };
-		FAA51714272325DD007FD0E9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA51713272325DD007FD0E9 /* RoundedButton.swift */; };
 		FAA517162724328F007FD0E9 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = FAA517152724328F007FD0E9 /* tree.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FA50422A272436FF002CB49D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FA50422C272437E5002CB49D /* AITree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITree.swift; sourceTree = "<group>"; };
+		FA55DF8627248BE10077185A /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		FA993EF82724563C00BF1B46 /* Hiragino Mincho ProN W3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino Mincho ProN W3.otf"; sourceTree = "<group>"; };
+		FA993EF92724563C00BF1B46 /* Hiragino Mincho ProN W6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino Mincho ProN W6.otf"; sourceTree = "<group>"; };
+		FA993EFC27247FCE00BF1B46 /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
 		FAA516CB272306BA007FD0E9 /* Amber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA516E327230895007FD0E9 /* AmberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmberViewController.swift; sourceTree = "<group>"; };
 		FAA516E527230895007FD0E9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +50,6 @@
 		FAA5170527232016007FD0E9 /* SFCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFCalendar.swift; sourceTree = "<group>"; };
 		FAA5170F2723242E007FD0E9 /* CalendarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarItem.swift; sourceTree = "<group>"; };
 		FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarItemCell.swift; sourceTree = "<group>"; };
-		FAA51713272325DD007FD0E9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		FAA517152724328F007FD0E9 /* tree.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +74,23 @@
 				FA50422A272436FF002CB49D /* Question.swift */,
 			);
 			path = "AI Tree";
+			sourceTree = "<group>";
+		};
+		FA55DF8527248BD50077185A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FA55DF8627248BE10077185A /* SymptomsViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA993EF72724563C00BF1B46 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA993EF82724563C00BF1B46 /* Hiragino Mincho ProN W3.otf */,
+				FA993EF92724563C00BF1B46 /* Hiragino Mincho ProN W6.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		FAA516C2272306BA007FD0E9 = {
@@ -102,6 +125,7 @@
 			children = (
 				FAA5170127231FEE007FD0E9 /* Calendar */,
 				FAA5170027231FE8007FD0E9 /* Amber */,
+				FA55DF8527248BD50077185A /* Profile */,
 				FAA5170227231FF3007FD0E9 /* Utils */,
 			);
 			path = Presentation;
@@ -119,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA516FB272313D8007FD0E9 /* Animations */,
+				FA993EF72724563C00BF1B46 /* Fonts */,
 				FAA516E727230895007FD0E9 /* Assets.xcassets */,
 				FAA516E827230895007FD0E9 /* LaunchScreen.storyboard */,
 				FAA516EA27230895007FD0E9 /* Main.storyboard */,
@@ -157,8 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				FAA516F9272311BB007FD0E9 /* Extensions.swift */,
-				FAA51713272325DD007FD0E9 /* RoundedButton.swift */,
 				FAA51711272325C5007FD0E9 /* CalendarItemCell.swift */,
+				FA993EFC27247FCE00BF1B46 /* FilledButton.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -248,10 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA993EFB2724563C00BF1B46 /* Hiragino Mincho ProN W6.otf in Resources */,
 				FAA516EF27230895007FD0E9 /* Assets.xcassets in Resources */,
 				FAA516F127230895007FD0E9 /* Main.storyboard in Resources */,
 				FAA517162724328F007FD0E9 /* tree.json in Resources */,
 				FAA516FF272313F1007FD0E9 /* 80520-blob.json in Resources */,
+				FA993EFA2724563C00BF1B46 /* Hiragino Mincho ProN W3.otf in Resources */,
 				FAA516F027230895007FD0E9 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,10 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA5170627232016007FD0E9 /* SFCalendar.swift in Sources */,
+				FA993EFD27247FCE00BF1B46 /* FilledButton.swift in Sources */,
+				FA55DF8727248BE10077185A /* SymptomsViewController.swift in Sources */,
 				FAA5170427232003007FD0E9 /* CalendarViewController.swift in Sources */,
 				FAA51712272325C5007FD0E9 /* CalendarItemCell.swift in Sources */,
 				FA50422B272436FF002CB49D /* Question.swift in Sources */,
-				FAA51714272325DD007FD0E9 /* RoundedButton.swift in Sources */,
 				FAA516EE27230895007FD0E9 /* AppDelegate.swift in Sources */,
 				FAA516FA272311BB007FD0E9 /* Extensions.swift in Sources */,
 				FAA517102723242E007FD0E9 /* CalendarItem.swift in Sources */,
@@ -420,7 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = N2V68QWUSQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Amber/Resources/Info.plist;
@@ -441,7 +469,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.amber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -456,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = N2V68QWUSQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Amber/Resources/Info.plist;
@@ -477,7 +505,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nogol.amber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

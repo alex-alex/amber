@@ -5,6 +5,9 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>UIAppFonts</key>
-	<array/>
+	<array>
+		<string>Hiragino Mincho ProN W3.otf</string>
+		<string>Hiragino Mincho ProN W6.otf</string>
+	</array>
 </dict>
 </plist>

@@ -7,7 +7,17 @@
 
 import UIKit
 
-// MARK: - UIView Properties
+// MARK: - UIColor
+
+extension UIColor {
+
+	static let accent = UIColor(named: "AccentColor")!
+	static let secondary = UIColor(named: "SecondaryColor")!
+	static let tertiary = UIColor(named: "TertiaryColor")!
+
+}
+
+// MARK: - UIView
 
 public extension UIView {
 

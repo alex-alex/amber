@@ -1,57 +1,210 @@
 [
-	{
-		"id": "main",
-		"question": "Hi Alex! What can I help you with?",
-		"type": "answers",
-		"answers": [
-			{
-				"text": "Add diary record",
-				"target": "add_diary_record"
-			},
-			{
-				"text": "Symptom assesment",
-				"target": "symptom_assesment"
-			},
-			{
-				"text": "Plan physical examination",
-				"target": "plan_examination"
-			},
-			{
-				"text": "Chat with a doctor",
-				"target": "chat_doctor"
-			}
-		]
-	},
-	{
-		"id": "symptom_assesment",
-		"question": "Let's start with the symptom that's troubling you the most.",
-		"type": "text",
-		"text": {
-			"text": "e.g. headache",
-			"target": "symptom_assesment_2"
-		}
-	},
-	{
-		"id": "add_diary_record",
-		"question": "Okay, let's start with simple question - how do you feel?",
-		"type": "answers",
-		"answers": [
-			{
-				"text": "Amazing",
-				"target": "add_diary_record_2"
-			},
-			{
-				"text": "Good",
-				"target": "add_diary_record_2"
-			},
-			{
-				"text": "Okay",
-				"target": "add_diary_record_2"
-			},
-			{
-				"text": "Bad",
-				"target": "add_diary_record_2"
-			}
-		]
+  {
+	"id": "main",
+	"header": "Hi David!",
+	"question": "What can I help you with?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Add diary record",
+		"target": "add_diary_record"
+	  },
+	  {
+		"text": "Symptom assessment",
+		"target": "symptom_assessment"
+	  },
+	  {
+		"text": "Plan physical examination",
+		"target": "dummy"
+	  },
+	  {
+		"text": "Chat with a doctor",
+		"target": "dummy"
+	  }
+	]
+  },
+  {
+	"id": "symptom_assessment",
+	"question": "Let's start with the symptom that's troubling you the most.",
+	"type": "text",
+	"text": {
+	  "text": "toothache",
+	  "target": "toothache_question_1"
 	}
+  },
+  {
+	"id": "add_diary_record",
+	"question": "Okay, let's start with simple question - how do you feel?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Amazing",
+		"target": "dummy"
+	  },
+	  {
+		"text": "Good",
+		"target": "dummy"
+	  },
+	  {
+		"text": "Okay",
+		"target": "dummy"
+	  },
+	  {
+		"text": "Bad",
+		"target": "dummy"
+	  }
+	]
+  },
+  {
+	"id": "toothache_question_1",
+	"question": "Did you experience these symptoms before your treatment?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Yes",
+		"target": "dummy"
+	  },
+	  {
+		"text": "No",
+		"target": "toothache_question_2"
+	  }
+	]
+  },
+  {
+	"id": "toothache_question_2",
+	"question": "Are you also having a dry mouth or stiffness in the jaw?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Both",
+		"target": "toothache_question_3"
+	  },
+	  {
+		"text": "Dry mouth",
+		"target": "toothache_question_3"
+	  },
+	  {
+		"text": "Jaw stiffness",
+		"target": "toothache_question_3"
+	  },
+	  {
+		"text": "None",
+		"target": "dummy"
+	  }
+	]
+  },
+  {
+	"id": "toothache_question_3",
+	"question": "How intense is your pain? From 0 to 5. Later one is the most intense",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "1",
+		"target": "toothache_resolution_1"
+	  },
+	  {
+		"text": "2",
+		"target": "toothache_resolution_1"
+	  },
+	  {
+		"text": "3",
+		"target": "toothache_resolution_2"
+	  },
+	  {
+		"text": "4",
+		"target": "toothache_resolution_2"
+	  },
+	  {
+		"text": "5",
+		"target": "toothache_resolution_2"
+	  }
+	]
+  },
+  {
+	"id": "toothache_resolution_1",
+	"question": "Toothache, dry mouth and jaw stiffness are expected side effects after your treatment, but most likely nothing to worry about. Please contact your doctor in case of worsening of your symptoms.",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Ok",
+		"target": "new_question"
+	  }
+	]
+  },
+  {
+	"id": "toothache_resolution_2",
+	"type": "answers",
+	"question": "Would you like me to plan a doctors appointment for you?",
+	"answers": [
+	  {
+		"text": "Yes",
+		"target": "toothache_resolution_1"
+	  },
+	  {
+		"text": "No",
+		"target": "toothache_resolution_1"
+	  }
+	]
+  },
+  {
+	"id": "new_question",
+	"question": "Is there anything else troubling you?",
+	"type": "text",
+	"text": {
+	  "text": "swollen knee",
+	  "target": "swollen_knee_question_1"
+	}
+  },
+  {
+	"id": "swollen_knee_question_1",
+	"question": "Did you have this symptom before the treatment?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Yes",
+		"target": "dummy"
+	  },
+	  {
+		"text": "No",
+		"target": "swollen_knee_question_2"
+	  }
+	]
+  },
+  {
+	"id": "swollen_knee_question_2",
+	"question": "Have you recently consumed any other drugs not prescribed by your doctor?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Yes",
+		"target": "dummy"
+	  },
+	  {
+		"text": "No",
+		"target": "swollen_knee_resolution_1"
+	  }
+	]
+  },
+  {
+	"id": "swollen_knee_resolution_1",
+	"question": "Oops, this is unexpected. Do you want me to schedule you an appointment with your doctor?",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Schedule appointment",
+		"target": "dummy"
+	  }
+	]
+  },
+  {
+	"id": "dummy",
+	"question": "This is empty item for purpose of demo only",
+	"type": "answers",
+	"answers": [
+	  {
+		"text": "Take me to start",
+		"target": "main"
+	  }
+	]
+  }
 ]

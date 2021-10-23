@@ -50,7 +50,6 @@ extension MyCalendarViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		navigationItem.largeTitleDisplayMode = .never
 		navigationItem.backButtonTitle = "Back"
 		navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Today", style: .plain, target: self, action: #selector(setToday))
 
@@ -143,9 +142,9 @@ extension MyCalendarViewController: FSCalendarDataSource, FSCalendarDelegate, FS
 		if let reservations = bookingData[month] {
 			let dayItems = reservations.filter({ $0.date.start(of: .day) == day })
 
-			if !dayItems.filter({ $0.type == .diary }).isEmpty { array.append(.systemPink) }
-			if !dayItems.filter({ $0.type == .medication }).isEmpty { array.append(.systemBlue) }
-			if !dayItems.filter({ $0.type == .booking }).isEmpty { array.append(.systemGreen) }
+			if !dayItems.filter({ $0.type == .diary }).isEmpty { array.append(.accent) }
+			if !dayItems.filter({ $0.type == .medication }).isEmpty { array.append(.tertiary) }
+			if !dayItems.filter({ $0.type == .booking }).isEmpty { array.append(.secondary) }
 		}
 
 		return array
@@ -201,13 +200,13 @@ extension MyCalendarViewController: UITableViewDataSource, UITableViewDelegate {
 		switch item.type {
 		case .booking:
 			cell.typeLabel.text = "Booking"
-			cell.dotView.backgroundColor = .systemGreen
+			cell.dotView.backgroundColor = .secondary
 		case .medication:
 			cell.typeLabel.text = "Medication"
-			cell.dotView.backgroundColor = .systemBlue
+			cell.dotView.backgroundColor = .tertiary
 		case .diary:
 			cell.typeLabel.text = "Diary record"
-			cell.dotView.backgroundColor = .systemPink
+			cell.dotView.backgroundColor = .accent
 		}
 
 		cell.timeLabel.text = timeFormatter.string(from: item.date)

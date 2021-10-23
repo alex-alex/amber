@@ -34,7 +34,7 @@ final class SFCalendar: FSCalendar {
 		appearance.headerTitleColor = .black
 //		appearance.headerTitleFont = .subtitle
 
-		appearance.caseOptions = .weekdayUsesSingleUpperCase
+//		appearance.caseOptions = .weekdayUsesSingleUpperCase
 		appearance.weekdayTextColor = .black
 //		appearance.weekdayFont = .label
 
@@ -44,12 +44,12 @@ final class SFCalendar: FSCalendar {
 		appearance.titleWeekendColor = .darkGray
 		appearance.eventDefaultColor = .systemRed
 
-		appearance.selectionColor = .systemPink
-		appearance.todaySelectionColor = .systemPink
+		appearance.selectionColor = .secondary
+		appearance.todaySelectionColor = .accent
 		appearance.eventSelectionColor = .clear
 
 		appearance.todayColor = .clear
-		appearance.titleTodayColor = .systemPink
+		appearance.titleTodayColor = .accent
 	}
 
 }
