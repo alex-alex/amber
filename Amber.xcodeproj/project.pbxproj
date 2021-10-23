@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA50422B272436FF002CB49D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422A272436FF002CB49D /* Question.swift */; };
 		FA50422D272437E5002CB49D /* AITree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50422C272437E5002CB49D /* AITree.swift */; };
-		FA55DF8727248BE10077185A /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55DF8627248BE10077185A /* SymptomsViewController.swift */; };
 		FA993EFA2724563C00BF1B46 /* Hiragino Mincho ProN W3.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA993EF82724563C00BF1B46 /* Hiragino Mincho ProN W3.otf */; };
 		FA993EFB2724563C00BF1B46 /* Hiragino Mincho ProN W6.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA993EF92724563C00BF1B46 /* Hiragino Mincho ProN W6.otf */; };
 		FA993EFD27247FCE00BF1B46 /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA993EFC27247FCE00BF1B46 /* FilledButton.swift */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		FA50422A272436FF002CB49D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FA50422C272437E5002CB49D /* AITree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AITree.swift; sourceTree = "<group>"; };
-		FA55DF8627248BE10077185A /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
 		FA993EF82724563C00BF1B46 /* Hiragino Mincho ProN W3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino Mincho ProN W3.otf"; sourceTree = "<group>"; };
 		FA993EF92724563C00BF1B46 /* Hiragino Mincho ProN W6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hiragino Mincho ProN W6.otf"; sourceTree = "<group>"; };
 		FA993EFC27247FCE00BF1B46 /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
@@ -74,14 +72,6 @@
 				FA50422A272436FF002CB49D /* Question.swift */,
 			);
 			path = "AI Tree";
-			sourceTree = "<group>";
-		};
-		FA55DF8527248BD50077185A /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				FA55DF8627248BE10077185A /* SymptomsViewController.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		FA993EF72724563C00BF1B46 /* Fonts */ = {
@@ -125,7 +115,6 @@
 			children = (
 				FAA5170127231FEE007FD0E9 /* Calendar */,
 				FAA5170027231FE8007FD0E9 /* Amber */,
-				FA55DF8527248BD50077185A /* Profile */,
 				FAA5170227231FF3007FD0E9 /* Utils */,
 			);
 			path = Presentation;
@@ -292,7 +281,6 @@
 			files = (
 				FAA5170627232016007FD0E9 /* SFCalendar.swift in Sources */,
 				FA993EFD27247FCE00BF1B46 /* FilledButton.swift in Sources */,
-				FA55DF8727248BE10077185A /* SymptomsViewController.swift in Sources */,
 				FAA5170427232003007FD0E9 /* CalendarViewController.swift in Sources */,
 				FAA51712272325C5007FD0E9 /* CalendarItemCell.swift in Sources */,
 				FA50422B272436FF002CB49D /* Question.swift in Sources */,
